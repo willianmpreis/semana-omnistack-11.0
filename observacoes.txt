@@ -1,0 +1,21 @@
+Projeto Mobile com Expo
+
+Validações: 
+    > Celebrate
+
+Testes:
+    > Jest : npx jest --init
+        -> npm test
+    > Configurar DB de Teste em knexfile.js 
+    > instalar cross-env
+    > instalar supertest, biblioteca para fazer as requisiçoes http. O axios não é recomendado para testes.
+        > npm test para rodar os testes
+
+> Alternativas de Deploy
+    > Node js
+        - Para aplicações de testes e estudos: HEROKU = https://www.heroku.com Possui uma conta free.
+        - Para aplicações comerciais: https://www.digitalocean.com
+        - Google Cloud, Amazon Web Services (AWS)  
+
+    > React
+        - Pequenas aplicações: netlify (expecifico para front-end)
